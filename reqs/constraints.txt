@@ -46,7 +46,7 @@ pyobjc-framework-Quartz==7.3
 pyparsing==3.0.3
 PyQt5==5.15.6
 PyQt5-Qt5==5.15.2
-PyQt5-sip==12.9.0
+PyQt5-sip>=12.9.0
 pyserial==3.5
 pytest==6.2.5
 pytest-qt==4.0.2
