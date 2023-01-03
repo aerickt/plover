@@ -151,7 +151,7 @@ class _ThreadedStenotypeThread(threading.Thread):
             self.machine.run()
         except Exception:
             if not self.machine.finished.isSet():
-                log.error('%s disconnected', self.machine.name)
+                #log.error('%s disconnected', self.machine.name)
                 self.machine._error()
 
 class ThreadedStenotypeBase(StenotypeBase):
